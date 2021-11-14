@@ -1,6 +1,5 @@
-package Base;
+package base;
 
-import java.awt.Window;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
@@ -12,24 +11,25 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Base 
 {
-	WebDriver driver;
+	public WebDriver driver;
+	public Properties pr;
 public WebDriver browserInvocation() throws IOException
 {
-	Properties pr =new Properties();
+	pr =new Properties();
 	FileInputStream fil=new FileInputStream("C:\\Users\\SHARATH\\eclipse-workspace\\E2E project\\Portal\\src\\main\\java\\Base\\environment.properties");
     pr.load(fil);
    String browser=pr.getProperty("browser");
-   if(browser=="chrome")
+   if(browser.equals("chrome"))
    {
 	 System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
 	 driver=new ChromeDriver();
    }
-   else if(browser=="firefox")
+   else if(browser.equals("firefox"))
    {
 	   System.setProperty("webdriver.gecko.driver", "./Drivers/geckodriver.exe");
 	   driver=new FirefoxDriver();
    }
-   driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+   driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
    return driver;
 }
 
