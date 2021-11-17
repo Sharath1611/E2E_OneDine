@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-17T18:13:18Z" name="Suite" finished-at="2021-11-17T18:19:36Z" duration-ms="377594">
+    <groups>
+    </groups>
+    <test started-at="2021-11-17T18:13:18Z" name="Test" finished-at="2021-11-17T18:19:36Z" duration-ms="377594">
+      <class name="test.Login_TC005">
+        <test-method signature="managerLogin()[pri:0, instance:test.Login_TC005@36916eb0]" started-at="2021-11-17T18:15:51Z" name="managerLogin" finished-at="2021-11-17T18:16:29Z" duration-ms="38656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- managerLogin -->
+      </class> <!-- test.Login_TC005 -->
+      <class name="test.Login_TC004">
+        <test-method signature="SuperAdminLogin()[pri:0, instance:test.Login_TC004@550dbc7a]" started-at="2021-11-17T18:14:56Z" name="SuperAdminLogin" finished-at="2021-11-17T18:15:13Z" duration-ms="16585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuperAdminLogin -->
+      </class> <!-- test.Login_TC004 -->
+      <class name="test.Login_TC003">
+        <test-method signature="AdminLogin()[pri:0, instance:test.Login_TC003@21282ed8]" started-at="2021-11-17T18:15:13Z" name="AdminLogin" finished-at="2021-11-17T18:15:51Z" duration-ms="38223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdminLogin -->
+      </class> <!-- test.Login_TC003 -->
+      <class name="test.Login_TC002">
+        <test-method is-config="true" signature="intialization()[pri:0, instance:test.Login_TC002@7bab3f1a]" started-at="2021-11-17T18:13:18Z" name="intialization" finished-at="2021-11-17T18:13:44Z" duration-ms="25415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method is-config="true" signature="intialization()[pri:0, instance:test.Login_TC003@21282ed8]" started-at="2021-11-17T18:13:44Z" name="intialization" finished-at="2021-11-17T18:13:56Z" duration-ms="12692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method is-config="true" signature="intialization()[pri:0, instance:test.Login_TC004@550dbc7a]" started-at="2021-11-17T18:13:56Z" name="intialization" finished-at="2021-11-17T18:14:18Z" duration-ms="21700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method is-config="true" signature="intialization()[pri:0, instance:test.Login_TC005@36916eb0]" started-at="2021-11-17T18:14:18Z" name="intialization" finished-at="2021-11-17T18:14:56Z" duration-ms="37984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method signature="dev_userLogIn()[pri:0, instance:test.Login_TC002@7bab3f1a]" started-at="2021-11-17T18:16:29Z" name="dev_userLogIn" finished-at="2021-11-17T18:16:38Z" duration-ms="8230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dev_userLogIn -->
+      </class> <!-- test.Login_TC002 -->
+      <class name="test.Login_TC001">
+        <test-method signature="Login_flow(java.lang.String, java.lang.String)[pri:0, instance:test.Login_TC001@437da279]" started-at="2021-11-17T18:16:38Z" name="Login_flow" data-provider="getData" finished-at="2021-11-17T18:17:04Z" duration-ms="26325" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[onedinedev1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[OneDine123!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_flow -->
+        <test-method signature="Login_flow(java.lang.String, java.lang.String)[pri:0, instance:test.Login_TC001@437da279]" started-at="2021-11-17T18:17:04Z" name="Login_flow" data-provider="getData" finished-at="2021-11-17T18:17:32Z" duration-ms="27942" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[onedinesuper]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[OneDine123!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_flow -->
+        <test-method signature="Login_flow(java.lang.String, java.lang.String)[pri:0, instance:test.Login_TC001@437da279]" started-at="2021-11-17T18:17:32Z" name="Login_flow" data-provider="getData" finished-at="2021-11-17T18:18:07Z" duration-ms="34659" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[onedinemanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[OneDine123!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_flow -->
+        <test-method signature="Login_flow(java.lang.String, java.lang.String)[pri:0, instance:test.Login_TC001@437da279]" started-at="2021-11-17T18:18:07Z" name="Login_flow" data-provider="getData" finished-at="2021-11-17T18:18:52Z" duration-ms="45378" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[onedineadmin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[OneDine123!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_flow -->
+        <test-method signature="Login_flow(java.lang.String, java.lang.String)[pri:0, instance:test.Login_TC001@437da279]" started-at="2021-11-17T18:18:52Z" name="Login_flow" data-provider="getData" finished-at="2021-11-17T18:19:24Z" duration-ms="31952" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[onedinesupport]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[OneDine123!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_flow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.Login_TC001@437da279]" started-at="2021-11-17T18:19:24Z" name="tearDown" finished-at="2021-11-17T18:19:26Z" duration-ms="1704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.Login_TC002@7bab3f1a]" started-at="2021-11-17T18:19:26Z" name="tearDown" finished-at="2021-11-17T18:19:27Z" duration-ms="1197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.Login_TC003@21282ed8]" started-at="2021-11-17T18:19:27Z" name="tearDown" finished-at="2021-11-17T18:19:31Z" duration-ms="4049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.Login_TC004@550dbc7a]" started-at="2021-11-17T18:19:31Z" name="tearDown" finished-at="2021-11-17T18:19:34Z" duration-ms="3229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.Login_TC005@36916eb0]" started-at="2021-11-17T18:19:34Z" name="tearDown" finished-at="2021-11-17T18:19:36Z" duration-ms="1631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.Login_TC001 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
